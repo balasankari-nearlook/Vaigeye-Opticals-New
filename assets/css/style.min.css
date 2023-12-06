@@ -3300,7 +3300,7 @@ li.menu-dropdown.position-static:hover .sub-menu.sub-menu-2 {
     border-bottom: none;
     z-index: 11;
     margin: 0;
-    background: #253237;
+    background:#fff;
     padding: 15px 0;
     line-height: 1
 }
@@ -3398,7 +3398,7 @@ li.menu-dropdown.position-static:hover .sub-menu.sub-menu-2 {
 }
 
 .header-right-nav a {
-    color: #fff
+    color:black;
 }
 
 .home-17 .header-right-nav a {
@@ -10983,7 +10983,7 @@ body.offcanvas-open {
     display: inline-block;
     vertical-align: middle;
     color: #fff;
-    background: #4fb68d;
+    background: #EC147E;
     font-size: 16px;
     padding: 0;
     line-height: 40px;
@@ -11485,7 +11485,7 @@ body.offcanvas-open {
 }
 
 .hover-style-cosmatics .mobile-menu:hover {
-    color: #c0b07d
+    color: #EC147E
 }
 
 .hover-style-electronic .mobile-menu:hover {
@@ -11493,11 +11493,11 @@ body.offcanvas-open {
 }
 
 .hover-style-furniture .mobile-menu:hover {
-    color: #ef1e1e
+    color: #EC147E
 }
 
 .hover-style-medical .mobile-menu:hover {
-    color: #0bbfbd
+    color: #EC147E
 }
 
 .header-top-set-lan-curr i {
