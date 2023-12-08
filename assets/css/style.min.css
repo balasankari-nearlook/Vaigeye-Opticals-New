@@ -3845,7 +3845,7 @@ li.menu-dropdown.position-static:hover .sub-menu.sub-menu-2 {
 .main-navigation ul li a {
     display: block;
     padding: 10px 15px;
-    color: #253237;
+    color:#fff;
     font-weight: 700;
     position: relative
 }
@@ -4194,7 +4194,7 @@ li.menu-dropdown.position-static:hover .sub-menu.sub-menu-2 {
 
 .home-20 .sticky-nav.menu_fixed {
     border: 0;
-    background: #0bbfbd
+    background: #0bbfbd;
 }
 
 .sticky-nav.menu_fixed {
@@ -4204,7 +4204,7 @@ li.menu-dropdown.position-static:hover .sub-menu.sub-menu-2 {
     width: 100%;
     z-index: 99999;
     background: #fff;
-    padding: 10px 0 15px 0;
+    padding: 10px 0 0 0;
     -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .4);
     box-shadow: 0 8px 6px -6px rgba(0, 0, 0, .4)
 }
