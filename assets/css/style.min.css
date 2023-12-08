@@ -3851,7 +3851,7 @@ li.menu-dropdown.position-static:hover .sub-menu.sub-menu-2 {
 }
 
 .main-navigation ul li a:hover {
-    color: #EC147E
+    color: #fff;
 }
 
 .home-furniture .main-navigation ul li a:hover {
@@ -8077,7 +8077,8 @@ a.read-more-btn i {
 .product-dec-slider-2 {
     display: inline-block;
     float: left;
-    margin: 0 40px
+    margin: 0 40px;
+    
 }
 
 .zoompro-wrap.zoompro-2 {
@@ -8087,7 +8088,9 @@ a.read-more-btn i {
     float: left;
     overflow: hidden
 }
-
+#gallery img{
+    height:10%;
+}
 .product-dec-slider-2 .slick-slide img {
     display: inline-block;
     width: 100%;
@@ -8145,6 +8148,10 @@ a.read-more-btn i {
     font-weight: 600;
     margin: 0 0 22px;
     line-height: 16px
+}
+.product-details-content p{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .reference {
