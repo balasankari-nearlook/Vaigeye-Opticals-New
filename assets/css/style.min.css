@@ -9886,7 +9886,7 @@ h3.cart-page-title {
 
 .contact-form {
     background-color: #f3f3f3;
-    padding: 50px 110px 50px 110px
+    padding: 50px 110px 70px 110px
 }
 
 .contact-form .contact-title h2 {
@@ -10604,6 +10604,7 @@ span.title {
     font-size: 40px
 }
 
+
 .single-about h4 {
     font-size: 30px;
     font-weight: 600;
@@ -10612,7 +10613,8 @@ span.title {
 }
 
 .about-area p {
-    color: #253237
+    color: #253237;
+    text-align: justify;
 }
 
 .mt-30px {
