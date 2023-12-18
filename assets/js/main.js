@@ -1104,7 +1104,7 @@
     /*---------------------------
        Quick view Slider Active
     ------------------------------ */
-    $('.quickview-slide-active').owlCarousel({
+    $('.quickview1-slide-active').owlCarousel({
         loop: false,
         margin: 15,
         smartSpeed: 1000,
@@ -1129,8 +1129,8 @@
     })
 
 
-    $('.quickview-slide-active a').on('click', function () {
-        $('.quickview-slide-active a').removeClass('active');
+    $('.quickview1slide-active a').on('click', function () {
+        $('.quickview1-slide-active a').removeClass('active');
     })
 
 
@@ -1194,6 +1194,196 @@
 	      }
 		}
 	});
+
+      /*---------------------------
+       Quick view Slider Active
+    ------------------------------ */
+    $('.quickview2-slide-active').owlCarousel({
+        loop: false,
+        margin: 15,
+        smartSpeed: 1000,
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 3,
+                autoplay: true,
+                smartSpeed: 300
+            },
+            576: {
+                items: 3
+            },
+            768: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+
+
+    $('.quickview2slide-active a').on('click', function () {
+        $('.quickview2-slide-active a').removeClass('active');
+    })
+
+
+    
+	var testi = $(".testimonialsSlide");
+	testi.owlCarousel({
+		autoplay :false,
+		autoplayHoverPause: true,
+		smartSpeed : 1000,
+		nav :false,
+		dots : true, 
+		responsiveClass:true,
+		responsive : {
+		  0 : {
+	          items: 1
+	      }, 
+		  360 : {
+	          items: 1
+	      },
+	      576 : {
+	          items: 2
+	      },
+	      768 : {
+	          items: 2
+	      },
+	      992 : {
+	          items:3
+	      },
+		  1200 : {
+	          items: 3
+	      }
+		}
+	}); 
+
+	var testi = $(".feature-item");
+	testi.owlCarousel({
+		autoplay :false,
+		autoplayHoverPause: true,
+		smartSpeed : 1000,
+		nav :true,
+		dots : false, 
+		responsiveClass:true,
+		responsive : {
+		  0 : {
+	          items: 1
+	      }, 
+		  360 : {
+	          items: 1
+	      },
+	      576 : {
+	          items: 2
+	      },
+	      768 : {
+	          items: 2
+	      },
+	      992 : {
+	          items:3
+	      },
+		  1200 : {
+	          items: 4
+	      }
+		}
+	});
+
+    /*-----Fasttrack quickview-----*/
+     /*---------------------------
+       Quick view Slider Active
+    ------------------------------ */
+    $('.quickviewf1-slide-active').owlCarousel({
+        loop: false,
+        margin: 15,
+        smartSpeed: 1000,
+        nav: true,
+        dots: false,
+        responsive: {
+            0: {
+                items: 3,
+                autoplay: true,
+                smartSpeed: 300
+            },
+            576: {
+                items: 3
+            },
+            768: {
+                items: 3
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
+
+
+    $('.quickviewf1slide-active a').on('click', function () {
+        $('.quickviewf1-slide-active a').removeClass('active');
+    })
+
+
+    
+	var testi = $(".testimonialsSlide");
+	testi.owlCarousel({
+		autoplay :false,
+		autoplayHoverPause: true,
+		smartSpeed : 1000,
+		nav :false,
+		dots : true, 
+		responsiveClass:true,
+		responsive : {
+		  0 : {
+	          items: 1
+	      }, 
+		  360 : {
+	          items: 1
+	      },
+	      576 : {
+	          items: 2
+	      },
+	      768 : {
+	          items: 2
+	      },
+	      992 : {
+	          items:3
+	      },
+		  1200 : {
+	          items: 3
+	      }
+		}
+	}); 
+
+	var testi = $(".feature-item");
+	testi.owlCarousel({
+		autoplay :false,
+		autoplayHoverPause: true,
+		smartSpeed : 1000,
+		nav :true,
+		dots : false, 
+		responsiveClass:true,
+		responsive : {
+		  0 : {
+	          items: 1
+	      }, 
+		  360 : {
+	          items: 1
+	      },
+	      576 : {
+	          items: 2
+	      },
+	      768 : {
+	          items: 2
+	      },
+	      992 : {
+	          items:3
+	      },
+		  1200 : {
+	          items: 4
+	      }
+		}
+	});
+
 
     /*--------------------------
       ScrollUp
