@@ -6217,3 +6217,11 @@
 
 
 }(jQuery));
+
+
+
+$( document ).ready(function(){
+	setTimeout(function(){$('#myModal1').modal('show');}, 4000);
+	 
+	/*setTimeout(function() {$('#myModal1').modal('hide');}, 10000);*/
+ });
