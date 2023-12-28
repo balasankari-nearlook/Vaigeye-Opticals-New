@@ -9909,7 +9909,8 @@ h3.cart-page-title {
     margin-bottom: 30px;
     color: #000;
     width: 100%;
-    outline: none
+    outline: none;
+    border-radius:5px;
 }
 
 .contact-form p {
