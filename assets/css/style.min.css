@@ -2,7 +2,8 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #666;
-    line-height: 24px
+    line-height: 24px;
+    background-color:#FFFBF5;
 }
 
 .home-20 {
@@ -3951,7 +3952,8 @@ li.menu-dropdown.position-static:hover .sub-menu.sub-menu-2 {
 }
 
 .menu-dropdown {
-    position: relative
+    position: relative;
+    color:#fff
 }
 
 .main-navigation ul li .sub-menu>li>a {
@@ -4869,7 +4871,7 @@ a.meanmenu-reveal.meanclose {
 }
 
 .home-electronic.home-12 .header-navigation {
-    padding: 32px 0
+    padding: 0 2px;
 }
 
 .home-8 .dropdown_search {
@@ -5416,11 +5418,10 @@ a.meanmenu-reveal.meanclose {
 .static-area-wrap {
     border: 1px solid#ebebeb;
     border-radius: 5px;
-    position:fixed;
-    width:1500px;
+    width:auto;
     padding: 0 20px;
-    background-color:#FBF6EE;
-    z-index: 3;
+    background-color:#C4DFDF;
+    
 }
 
 .home-8 .static-area {
